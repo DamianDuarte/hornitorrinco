@@ -1,16 +1,15 @@
 <% if (user.color=== 'Perry') { %>
-    <section class="perry__body">
+    <body class="perry__body">
     <% } else if (user.color=== 'Negro'){ %>
-        <section class="negro__body">
+        <body class="negro__body">
         <% } else if (user.color=== 'Slytherin') { %>
-            <section class="slytherin__body">
+            <body class="slytherin__body">
             <% } else {%>
-                <section class="ninguno_body" >
+                <body class="ninguno_body" >
                 <% } %>
                 <h1>HOLA</h1>
                 <h2>
                     Hola <%= user.name  %>  , elegiste el color: <%= user.color %>  , tu email es:
                             <%= user.email %> 
                 </h2>
-            </section>
         

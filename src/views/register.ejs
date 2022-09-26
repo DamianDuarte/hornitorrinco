@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registrarse</title>
+  <%- include('partials/head') %> 
 </head>
-
-<body>
-  <form action="/" method="POST">
+<body class="body">
+  <form class="form_body" action="/" method="POST">
     <label for="name">Nombre</label>
     <input type="text" id="name" name="name">
     <% if (locals.errors && errors.name) { %>
@@ -31,9 +26,11 @@
               <option value="Negro">Negro</option>
               <option value="Slytherin">Slytherin</option>
             </select>
-            <input type="checkbox" id="saveColor" name="saveColor">
-            <label for="saveColor">Recordar Color</label>
-            <input type="submit" value="Registrarse">
+            <div class="body_checkbox">
+              <input type="checkbox" id="saveColor" name="saveColor">
+              <label for="saveColor">Recordar Color</label>
+            </div>
+            <input class="boton_registro" type="submit" value="Registrarse">
   </form>
 </body>
 

@@ -12,6 +12,13 @@ module.exports = {
        return res.redirect('/')
     },
 
+    olvidar : (req, res) =>{
+        const user = req.session.userLogin
+        return res.send(req.session)
+        req.session.userLogin.color = null
+        return res.redirect('principal')
+    },
+
     logout: (req,res) => {
         res.render('logout')
         

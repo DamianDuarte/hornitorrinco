@@ -1,0 +1,15 @@
+.perry__body{
+    background-image: url('../images/perry.jpg');
+}
+
+.negro__body{
+    background-color: black;
+}
+
+.slytherin__body{
+    background-image: url('../images/Slytherin.jpg');
+}
+
+h1, h2, a{
+    color: red;
+}

@@ -35,7 +35,7 @@ module.exports={
                 color
             }
             
-            res.cookie('userLogin',req.session.userLogin,{maxAge: 150 * 60})
+            res.cookie('userLogin',req.session.userLogin,{maxAge: 1500 * 60})
             if(saveColor){
                 res.cookie('userLogin',req.session.userLogin,{maxAge: 8000 * 60})
             }

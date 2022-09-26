@@ -1,0 +1,39 @@
+.form_body{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    border: none;
+    background-color:  rgb(75, 75, 168);
+    border-radius: 15px;
+    width: 60%;
+    padding: 45px;
+    gap: 15px;
+}
+
+.form_body label{
+    width: 30%;
+}
+
+.form_body input{
+    width: 45%;
+}
+
+.form_body select{
+    width: 45%;
+}
+
+.body_checkbox{
+    width: 100%;
+}
+
+.body_checkbox input{
+    width: 50%;
+}
+
+.body_checkbox label{
+    width: 50%;
+}
+
+.boton_registro{
+    margin: auto;
+}

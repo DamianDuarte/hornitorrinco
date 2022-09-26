@@ -3,34 +3,68 @@
       "id": 1,
       "nombre": "Lujan",
       "email": "lula@gmail.com",
-      "color": "Slytherin",
+      "color": "Perry",
       "saveColor": "on"
    },
    {
       "id": 2,
-      "nombre": "Damian",
-      "email": "damykirablack@gmail.com",
+      "nombre": "Julian",
+      "email": "juli@gmail.com",
       "color": "Negro",
       "saveColor": "on"
    },
    {
       "id": 3,
-      "nombre": "Anto",
-      "email": "anto@gmail.com",
-      "color": "Perry",
+      "nombre": "Damian",
+      "email": "damykirablack@gmail.com",
+      "color": "Slytherin",
       "saveColor": "on"
    },
    {
       "id": 4,
-      "nombre": "Diego",
-      "email": "chihuahua@gmail.com",
+      "nombre": "Anto",
+      "email": "anto@gmail.com",
+      "color": "Ninguno"
+   },
+   {
+      "id": 5,
+      "nombre": "olvidar",
+      "email": "color@gmail.com",
       "color": "Negro",
       "saveColor": "on"
    },
    {
-      "id": 5,
-      "nombre": "Julian",
-      "email": "malditotp@gmail.com",
+      "id": 6,
+      "nombre": "noolvida",
+      "email": "ptm@gmail.com",
+      "color": "Negro",
+      "saveColor": "on"
+   },
+   {
+      "id": 7,
+      "nombre": "funcionamrd",
+      "email": "asiteentrego@gmail.com",
+      "color": "Perry",
+      "saveColor": "on"
+   },
+   {
+      "id": 8,
+      "nombre": "ysiloentrego",
+      "email": "asicomoesta@gmail.com",
+      "color": "Slytherin",
+      "saveColor": "on"
+   },
+   {
+      "id": 9,
+      "nombre": "odiosession",
+      "email": "ycookies@gmail.com",
+      "color": "Perry",
+      "saveColor": "on"
+   },
+   {
+      "id": 10,
+      "nombre": "yanoquieroseguir",
+      "email": "conestatortura@gmail.com",
       "color": "Slytherin",
       "saveColor": "on"
    }
