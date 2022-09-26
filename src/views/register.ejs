@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse</title>
+</head>
+
+<body>
+  <form action="/" method="POST">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="name">
+    <% if (locals.errors && errors.name) { %>
+      <small style="color: rgb(255, 153, 0)">
+        <%= errors.name.msg %>
+      </small>
+      <% } %>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <% if (locals.errors && errors.email) { %>
+          <small style="color: rgb(255, 153, 0)">
+            <%= errors.email.msg %>
+          </small>
+          <% } %>
+            <label for="">Color</label>
+            <select name="color" id="color">
+              <option value="Ninguno" hidden selected>Seleccione una opcion</option>
+              <option value="Perry">Perry</option>
+              <option value="Negro">Negro</option>
+              <option value="Slytherin">Slytherin</option>
+            </select>
+            <input type="checkbox" id="saveColor" name="saveColor">
+            <label for="saveColor">Recordar Color</label>
+            <input type="submit" value="Registrarse">
+  </form>
+</body>
+
+</html>

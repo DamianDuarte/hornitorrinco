@@ -1,0 +1,37 @@
+[
+   {
+      "id": 1,
+      "nombre": "Lujan",
+      "email": "lula@gmail.com",
+      "color": "Slytherin",
+      "saveColor": "on"
+   },
+   {
+      "id": 2,
+      "nombre": "Damian",
+      "email": "damykirablack@gmail.com",
+      "color": "Negro",
+      "saveColor": "on"
+   },
+   {
+      "id": 3,
+      "nombre": "Anto",
+      "email": "anto@gmail.com",
+      "color": "Perry",
+      "saveColor": "on"
+   },
+   {
+      "id": 4,
+      "nombre": "Diego",
+      "email": "chihuahua@gmail.com",
+      "color": "Negro",
+      "saveColor": "on"
+   },
+   {
+      "id": 5,
+      "nombre": "Julian",
+      "email": "malditotp@gmail.com",
+      "color": "Slytherin",
+      "saveColor": "on"
+   }
+]
